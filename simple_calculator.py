@@ -22,12 +22,8 @@ def arithmetic_ops(op):
     return num1, num2, op(num1, num2)
 
 
-def add(x, y):
-    return x + y
-
-
-def sub(x, y):
-    return x - y
+def add(x, y): return x + y
+def sub(x, y): return x - y
 
 
 while True:
