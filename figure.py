@@ -7,7 +7,9 @@ import math
 
 class line:
 
-    def __init__(self, length=0):
+    __length = 0
+    
+    def __init__(self, length):
         self.__length = length
 
     def get_length(self):
@@ -22,13 +24,9 @@ def area_square(length):
     return length * length
 
 # area_circle 함수는 원의 넓이를 구하는 함수이다
-
-
 def area_circle(length):
     return length * length * math.pi
 
 # area_regular_triangle 함수는 정삼각형의 넓이를 구하는 함수이다
-
-
 def area_regular_triangle(length):
     return length * length * math.sqrt(3) / 4
